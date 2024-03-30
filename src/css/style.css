@@ -1,0 +1,80 @@
+html {
+    background-color: black;
+    background-color: black;
+    color: aliceblue;
+}
+
+body {
+    background-image: url(../imagens/ragnarok-origin.png);
+}
+
+.inventario {
+    margin: 5px 5px;
+    max-width: 700px;
+    background-color: rgba(94, 185, 255, 0.300);
+    border: solid white;
+    border-radius: 15px;
+}
+
+
+.titulo {
+    display: flex;
+    /* Make it a flex container */
+    /* Make it a flex container */
+    justify-content: center;
+    /* Center buttons horizontally */
+    margin: 10px 10px;
+    padding: 10px 10px;
+    /* Center buttons horizontally */
+    margin: 10px 10px;
+    padding: 1px 1px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.paragrafo {
+    display: flex;
+    justify-content: center;
+    margin: 5px 5px;
+    padding: 10px 10px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.botoes {
+    display: flex;
+    /* Make it a flex container */
+    /* Make it a flex container */
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Center buttons horizontally */
+    /* Center buttons horizontally */
+    margin: 5px 5px;
+}
+
+.botao {
+    margin: 5px 5px;
+
+    background-color: rgba(94, 185, 255, 0.786);
+    border: solid white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.botao-clicado {
+    background-color: rgba(255, 235, 121, 0.862);
+    border: solid rgb(0, 145, 255);
+    border-radius: 15px;
+}
+
+.video-container {
+    margin: 5px 50px;
+justify-self: center;
+    padding: 5px 5px 3px 10px;
+    max-width: 305px;
+    background-color: rgba(94, 185, 255, 0.786);
+    border: solid white;
+    border-radius: 15px;
+}
