@@ -40,6 +40,7 @@ export default [
     "ROODCBONUSGIFT",
     "ROODCSURPRISE",
     "ROODREAM",
+    "ROOEASTERDAY",
     "ROOFANTASTIC",
     "ROOFORCAROO",
     "ROOFOREVER",
