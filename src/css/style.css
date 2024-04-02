@@ -70,9 +70,7 @@ body {
 }
 
 .video-container {
-    padding: 5px 5px 3px 10px;
-    max-width: 255px;
-    background-color: rgba(94, 185, 255, 0.786);
-    border: solid white;
-    border-radius: 15px;
+    margin: 20px 5px;
+    padding: 5px 5px;
+    max-width: 315px;
 }
