@@ -43,6 +43,7 @@ export default [
     "ROOJOYFULROO",
     "ROOLEVEL70UPROO",
     "ROOMORROC",
+    "ROONUMBERONE",
     "ROOPOWERUP",
     "ROOSHIPWRECK",
     "ROOSORRYSKYCITY",
