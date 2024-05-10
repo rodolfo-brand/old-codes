@@ -70,7 +70,9 @@ body {
 }
 
 .video-container {
-    margin: 20px 5px;
+    flex-wrap: wrap;
+justify-content: center;
+margin: 5px 5px;
     padding: 5px 5px;
-    max-width: 315px;
+    min-width: 315px;
 }
