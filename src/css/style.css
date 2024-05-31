@@ -2,10 +2,14 @@ html {
     background-color: black;
     background-color: black;
     color: rgb(255, 255, 243);
+    background-image: url(../imagens/ragnarok-origin.png);
+    background-size: cover;
 }
 
 body {
-    background-image: url(../imagens/ragnarok-origin.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .inventario {
@@ -19,13 +23,8 @@ body {
 
 .titulo {
     display: flex;
-    /* Make it a flex container */
-    /* Make it a flex container */
     justify-content: center;
-    /* Center buttons horizontally */
     margin: 10px 10px;
-    padding: 10px 10px;
-    /* Center buttons horizontally */
     margin: 10px 10px;
     padding: 1px 1px;
     font-family: "Fira Sans", sans-serif;
@@ -43,36 +42,23 @@ body {
     font-style: normal;
 }
 
-.botoes {
-    display: flex;
-    /* Make it a flex container */
-    /* Make it a flex container */
-    flex-wrap: wrap;
-    justify-content: center;
-    /* Center buttons horizontally */
-    /* Center buttons horizontally */
-    margin: 5px 5px;
-}
-
 .botao {
-    margin: 5px 5px;
-
-    background-color: rgba(94, 185, 255, 0.786);
-    border: solid white;
+justify-content: justify;
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    font-style: normal;
+    padding: 15px 15px;
+    margin: 10px 10px;
+    background-color: rgba(11, 61, 100, 0.789);
+    border: solid whitesmoke;
     border-radius: 15px;
     cursor: pointer;
 }
 
 .botao-clicado {
-    background-color: rgba(255, 227, 68, 0.862);
-    border: solid rgb(0, 145, 255);
+    background-color: rgba(186, 158, 0, 0.726);
+    border: solid rgb(255, 255, 255);
     border-radius: 15px;
-}
-
-.video-container {
-    flex-wrap: wrap;
-justify-content: center;
-margin: 5px 5px;
-    padding: 5px 5px;
-    min-width: 315px;
 }
